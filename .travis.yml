@@ -1,0 +1,10 @@
+language: go
+sudo: false
+arch:
+  - ppc64le
+  - amd64
+go:
+  - 1.x
+  - main
+
+script: go test -v

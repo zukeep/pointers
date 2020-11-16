@@ -1,14 +1,3 @@
-# Pointers
-
-Go package pointers provides helpers to work with primitive pointers in golang
-
-```
-go get github.com/zukeep/pointers
-```
-
-Check the example below: https://play.golang.org/p/9rKxIqlQDzJ
-
-```go
 package main
 
 import (
@@ -46,12 +35,11 @@ func main() {
 		NumberOfPeople *int64
 		InitialLetter  *rune
 	}{
-		Exists: pointers.Bool(true),
-		Temperature: pointers.Float32(42.645),
+		Exists:         pointers.Bool(true),
+		Temperature:    pointers.Float32(42.645),
 		NumberOfPeople: pointers.Int64(42),
-		InitialLetter: pointers.Rune('D'),
+		InitialLetter:  pointers.Rune('D'),
 	}
 
 	fmt.Println(s)
 }
-```
