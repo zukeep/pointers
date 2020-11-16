@@ -1,7 +1,8 @@
 language: go
 sudo: false
 arch:
-  - ppc64le
+  - arm64-graviton2
+  - arm64
   - amd64
 go:
   - 1.x
