@@ -1,7 +1,10 @@
+[Documentation](https://pkg.go.dev/pkg.go.dev/github.com/zukeep/pointers)
+
 # Pointers
 
 [![zukeep](https://circleci.com/gh/zukeep/pointers.svg?style=svg)](https://circleci.com/gh/zukeep/pointers)
 [![Build Status](https://travis-ci.org/zukeep/pointers.svg?branch=main)](https://travis-ci.org/zukeep/pointers)
+[![PkgGoDev](https://pkg.go.dev/badge/pkg.go.dev/github.com/zukeep/pointers)](https://pkg.go.dev/pkg.go.dev/github.com/zukeep/pointers)
 
 Go package pointers provides helpers to work with primitive pointers in golang
 
