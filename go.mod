@@ -1,5 +1,7 @@
-module github.com/zukeep/pointers/v1
+module github.com/zukeep/pointers
 
 go 1.15
 
-require github.com/onsi/gomega v1.10.3
+require (
+	github.com/onsi/gomega v1.10.3
+)

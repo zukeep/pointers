@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/zukeep/pointers/v1"
+	"github.com/zukeep/pointers"
 )
 
 // requiresStrPointer is a function that receives a string pointer and checks if it's null

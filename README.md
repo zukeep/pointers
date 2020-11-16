@@ -1,5 +1,8 @@
 # Pointers
 
+[![zukeep](https://circleci.com/gh/zukeep/pointers.svg?style=svg)](https://circleci.com/gh/zukeep/pointers)
+[![Build Status](https://travis-ci.org/zukeep/pointers.svg?branch=main)](https://travis-ci.org/zukeep/pointers)
+
 Go package pointers provides helpers to work with primitive pointers in golang
 
 ```
@@ -13,7 +16,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/zukeep/pointers/v1"
+	"github.com/zukeep/pointers"
 )
 
 // requiresStrPointer is a function that receives a string pointer and checks if it's null
