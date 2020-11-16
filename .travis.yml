@@ -6,6 +6,5 @@ arch:
   - amd64
 go:
   - 1.x
-  - main
 
 script: go test -v
